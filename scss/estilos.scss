@@ -1,6 +1,6 @@
 @import "colores";
 @import "clases";
-@import "nosotros";
+@import "sobrenosotros";
 @import "contacto";
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
@@ -229,7 +229,7 @@ p {
 
 /*nosotros*/
 .banner__nosotros {
-    background-image: url(../img/banner-motivaciones.png);
+    background-image: url(../img/banner-sobrenosotros.png);
     height: 20rem;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -257,12 +257,6 @@ p {
     margin-top: 3em;
 }
 
-.sobrepadel {
-    -ms-grid-row: 1;
-    -ms-grid-column: 4;
-    grid-area: imagen;
-}
-
 .article__sobrenosotros {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -277,17 +271,17 @@ p {
     transition: all 0.5s ease;
 }
 
-.section__proyectos {
+.section__directrices {
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: (5fr)[4];
         grid-template-columns: repeat(4, 5fr);
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-        grid-template-areas: "proyectos proyectos proyectos proyectos";
+        grid-template-areas: "directrices directrices directrices";
         gap: 10px;
         margin: 2rem 0;
-        .article__proyectos {
+        .article__directrices {
             margin: 1rem auto;
         }
         img {
@@ -295,7 +289,7 @@ p {
         }
 }
 
-.article__proyectos ul li {
+.article__directrices ul li {
     list-style-type: disc;
     font-size: 1.4rem;
     text-align: left;
@@ -306,7 +300,7 @@ p {
     padding-left: 1em;
 }
 
-.article__proyectos {
+.article__directrices {
     width: 90%;
     padding: 2em;
     text-align: center;
@@ -328,10 +322,12 @@ p {
     border-radius: 1em;
 }
 
-.proyectos {
+.directrices {
     width: 80%;
-    border-radius: 1em;
+    border-radius: 1rem;
 }
+
+
 
 /*clases*/
 .banner__clases {
@@ -609,14 +605,14 @@ footer div.contenedor__ancho{
     }
 
 
-    .section__proyectos {
+    .section__directrices {
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: (5fr)[4];
         grid-template-columns: repeat(4, 5fr);
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-        grid-template-areas: "proyectos proyectos proyectos proyectos";
+        grid-template-areas: "directrices directrices directrices";
         gap: 10px;
     }
 }
@@ -709,7 +705,7 @@ footer div.contenedor__ancho{
         gap: 10px;
     }
     
-    .section__proyectos {
+    .section__directrices {
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 1fr;
@@ -717,10 +713,9 @@ footer div.contenedor__ancho{
         -ms-grid-rows: (1fr)[4];
         grid-template-rows: repeat(4, 1fr);
         grid-template-areas: 
-        "proyectos"
-        "proyectos"
-        "proyectos"
-        "proyectos";
+        "directrices"
+        "directrices"
+        "directrices";
         gap: 10px;
     }
 
@@ -811,7 +806,7 @@ footer div.contenedor__ancho{
         gap: 10px;
     }
     
-    .section__proyectos {
+    .section__directrices {
         display: -ms-grid;
         display: grid;
         -ms-grid-columns: 1fr;
@@ -819,13 +814,12 @@ footer div.contenedor__ancho{
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
         grid-template-areas:
-        "proyectos"
-        "proyectos"
-        "proyectos"
-        "proyectos";
+        "directrices"
+        "directrices"
+        "directrices";
         gap: 10px;
     }
-    
+
     .imagen1 {
         display: none;
     } 

@@ -392,7 +392,7 @@ p {
 .section__clases strong {
   color: #0000ff;
 }
-
+/*
 .clases__notas {
   width: 24%;
   padding: 3em;
@@ -422,7 +422,7 @@ p {
   padding: 5px 20px;
   margin: 1em;
 }
-
+*/
 .banner__contacto {
   background-image: url(../img/banner-contacto.png);
   height: 20rem;
