@@ -1,0 +1,30 @@
+@import "mixin";
+
+/*clases*/
+.banner__clases {
+    background-image: url(../img/banner-clases.jpg);
+    height: 20rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    @include contenido_centrado;
+    @include alinear_centro;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section__clases{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    @include wrap;
+    @include contenido_justificado;
+    margin: 2rem 0;
+    h2 {
+        text-align: center;
+    }
+    strong {
+        color: $color4;
+    }
+}
